@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000
+}
+
+.img_logo_incode {
+  width: 72px;
+  height: 46px;
+  margin-top: 25px;
+  border-radius: 1px;
+align-items:start;
+margin-left: 80px;
+  
+ 
+}
+
+header {
+  display: flex;
+  justify-content:space-between;
+  align-items: baseline;
+  color: #ffffffff;
+  width: 100%;
+ 
+}
+
+.box_header{
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.botao_header {
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 700;
+  margin-left: 32px;
+}
+
+.div_name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-image: url(./Acetts/logo\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+h1 {
+  width: 419px;
+  height: 53px;
+  margin-top: 312px;
+  margin-bottom: 19px;
+
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffffff;
+}
+
+.texto_fulano_de_tal {
+  width: 884px;
+  height: 88px;
+  font-size: 22px;
+  font-weight: 200;
+  margin-bottom: 272px;
+  color: #ffffffff;
+}
+
+.section_sobre_mim {
+  width: 1216px;
+  height: 620px;
+  background-color: #2F4F4F;;
+  border-radius: 20px;
+}
+
+h2 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  
+  color: #ffffffff;
+  padding-top: 30px;
+}
+
+.texto_sobre_mim {
+  width: 900px;
+margin-left: 170px;
+  height: 108px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffffff;
+  opacity: 60%;
+
+ margin-bottom: 70px;
+}
+
+.box {
+  width: 365px;
+  height: 250px;
+  background-color: #ffffffff;
+  border-radius: 14px;
+ padding-top: 12px;
+  margin: 10px;
+  margin-left: 25px;
+  margin-top: 130px;
+  
+}
+
+h4 {
+  width: 319px;
+  height: 50px;
+  margin-bottom: 14px;
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 33px;
+}
+
+.text_box {
+  font-size: 14px;
+  width: 304px;
+  height: 96px;
+  margin-left: 33px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.container_boxtobox{
+  display: flex;
+}
+
+
+.button_gray {
+  margin-top: 80px;
+  width: 40px;
+  height: 10px;
+  background-color:#A9A9A9;
+  border-radius: 5px;
+}
+
+.button_blue {
+  margin-top: 80px;
+  width: 40px;
+  height: 10px;
+  background-color:#1E90FF;
+  border-radius: 5px;
+}
+
+h3 {
+  margin-top: 120px;
+  font-family: "Ubuntu Mono", monospace;
+  width: 108px;
+  height: 42px;
+  font-size: 42px;
+  margin-bottom: 90px;
+  color: #ffffffff;
+}
+
+.skill_container {
+  margin-bottom: 172px;
+
+}
+
+.img_skill {
+  margin: 25px;
+  width: 100px;
+}
+
+h5 {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 37px;
+  color: #ffffffff;
+}
+
+.container_projects {
+  display:grid;
+  margin-bottom: 198px;
+}
+
+.container_robotica{
+  display: flex   ;
+}
+
+.box_projects {
+  width: 366px;
+  height: 280px;
+  border-radius: 14px;
+  padding: 20px;
+  background-color: #2F4F4F;
+  color: #ffffffff;
+  text-align: center;
+  margin: 30px;
+  background-image: url(./Acetts/Robot.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: right;
+  
+}
+
+
+
+.title_robotica {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+ 
+  margin-bottom: 13px;
+  margin-right: 140px;
+}
+
+.text_robotica {
+  font-size: 20px;
+  width: 304px;
+  text-align: left;
+  text-decoration: solid;
+  margin-bottom: 18px;
+  margin-left: 4px;
+}
+
+.text_acesso {
+  font-size: 22px;
+  margin-top: 50px;
+  margin-right: 160px;
+  color: #ffffffff;
+  font-style: italic;
+  text-decoration: underline;
+  width: 300px;
+  height: 90px;
+}
+
+
+
+h6 {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 37px;
+  color: #ffffffff;
+  margin-top: 41px;
+}
+
+.div_border {
+  width: 100%;
+  height: 3px;
+  background-color: #ffffffff;
+  margin-top: 4px;
+}
+
+footer {
+ width: 100%;
+ height: 212px;
+ background-color: #2F4F4F;
+ display: grid;
+ justify-content:space-between;
+ flex-direction:column;
+ grid-template-columns: 1fr 1fr;
+ align-items:first baseline;
+ background-image: url(./Acetts/logo.png);
+ position: relative;
+ background-repeat: no-repeat;
+ background-position: left;
+ 
+}
+
+.div_contato{
+  width: 100%;
+  height: 100px;
+  background-color: #2F4F4F;
+  text-align: center;
+  padding-left: 370px;
+}
+
+.icon_contacts {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  margin-left: 50%;
+  
+}
+
+.link_contact {
+  width: 200px;
+  height: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #ffffffff;
+  display:block;
+}
+
+
+.footer_container1{
+  margin-left: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+  
+.footer_container2 {
+  margin-right: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.divfooter{
+  width: 400px;
+  height: 50px;
+  display: flex;
+}
